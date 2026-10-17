@@ -2,6 +2,12 @@
 
 リハ科の月次実績をCSVから可視化し、月次レポートを作るブラウザ専用アプリです。
 
+## 公開版
+
+[アプリを開く](https://daiyanoa1234-eng.github.io/rehab-report-studio/)
+
+![公開URLのQRコード](docs/qr.png)
+
 ## 起動
 
 ```sh
@@ -38,7 +44,7 @@ npm run dev
 
 ## 配信
 
-Viteの静的ビルドです。VercelはBuild command `npm run build`、Output directory `dist`。GitHub Pagesは `vite build --base=./` でビルドし、`dist` を配信してください。講座用の公開先・ソースコード公開の可否は未決定です。
+Viteの静的ビルドです。VercelはBuild command `npm run build`、Output directory `dist`。GitHub Pagesは `vite build --base=./` でビルドし、`dist` を配信してください。GitHub Pagesで公開し、このリポジトリでソースコードも公開しています。mainへのpushでテスト・ビルド・公開が自動実行されます。
 
 明細が50行を超える場合はページ切替で表示します。並べ替えと合計は全データが対象です。
 
